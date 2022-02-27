@@ -17,3 +17,5 @@ The main modifications of PointPillars code from Vitis-AI-Library include:
 For compiling the code, follow the instructions from Vitis-AI official repository.
 
 The FINN PointPillars implementation is based on this [code](https://github.com/nutonomy/second.pytorch). The PointPillars was first quantised using [Brevitas](https://github.com/Xilinx/brevitas) library and then synthesized for ZCU104 Zynq MPSoC using [FINN](https://github.com/Xilinx/finn).
+
+You can find a package (compiled code, PointPillars FINN model, input data examples) for ZCU104 [here](https://github.com/vision-agh/pp-finn/releases/download/v0.1/ppFINN_ZCU104.zip).
